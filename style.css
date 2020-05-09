@@ -20,15 +20,15 @@ i, svg {
 }
 
 .kick-pad {
-    background-color: rgb(170, 67, 170);
+    background-color: rgb(175, 98, 175);
 }
 
 .snare-pad {
-    background-color: rgb(111, 172, 226);
+    background-color: rgb(127, 179, 224);
 }
 
 .hihat-pad {
-    background-color: rgb(202, 165, 95);
+    background-color: rgb(206, 174, 115);
 }
 
 .kick-pad.active {
@@ -101,4 +101,13 @@ select {
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
+}
+
+@keyframes playTrack {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
 }
